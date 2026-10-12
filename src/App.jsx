@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/nupur.github.io">
       <div className="app-container">
         <Navbar />
         <main className="main-content">
